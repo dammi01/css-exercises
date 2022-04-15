@@ -1,0 +1,23 @@
+/* styles.css */
+
+.impar {
+    background-color: rgb(215, 157, 157);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.impar-gross {
+    font-size: 24px;
+}
+
+#zwei {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+#vier {
+    background-color: rgb(115, 232, 148);
+    font-size: 24px;
+    font-family: Ubuntu;
+    font-weight: bold;
+}    
+

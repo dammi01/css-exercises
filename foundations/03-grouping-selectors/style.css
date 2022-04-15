@@ -1,0 +1,17 @@
+/* styles.css */
+
+.knopf1,
+.knopf2 {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+.knopf1 {
+    background-color: black;
+    color: white;
+}
+
+.knopf2 {
+    background-color: yellow;
+    color:black;
+}
