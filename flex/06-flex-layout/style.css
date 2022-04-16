@@ -25,3 +25,67 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+a {
+  color: #666;
+  /* this removes the line under our links */
+  text-decoration: none;
+}
+
+ul {
+  /* this removes the bullet */
+  list-style-type: none;
+  display: flex;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background: #eee;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #eee;
+}   
+
+.left-links {
+  gap: 16px;
+}
+
+.right-links {
+  gap: 16px;
+  padding-right: 40px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
+}
